@@ -3,18 +3,18 @@ Guide to operate the c++ code
                                      First color
                                     /        Second color
                                    /        /        Third color
-                                  /        /        /        Fourth color
-                                 /        /        /        / 
-                     ___________V________V________V________V______
-                    |          | |      | |      | |      | |     |   
-        ____________|          | |      | |      | |      | |     |____________
-                    |          | |      | |      | |      | |     |    
-                    |__________| |______| |______| |______| |_____|
+                                  /        /        /            Fourth color
+                                 /        /        /            / 
+                    ____________V________V________V____________V_______
+                    |          | |      | |      | |          | |     |   
+        ____________|          | |      | |      | |          | |     |____________
+                    |          | |      | |      | |          | |     |    
+                    |__________| |______| |______| |__________| |_____|
                  
                                  "THIS IS YOUR RESISTOR"
 
 INSTRUCTION: Type the name of a color in the "// Driver Code" 
-             Wrong Spelling of Color will send Error "Invalid Colors"                  
+            
 EXAMPLE:
 
 //Driver Code" 
@@ -23,12 +23,22 @@ int main()
        string First_Color = "red";
        string Second_Color = "brown";
        string Third_Color = "red";
-      string Fourth_Color = "gold";
+       string Fourth_Color = "gold";
 
-When you are done typing the colors in each string Hit Run the code in Compiler
 ====================================================================================================================
-Visit this Website to Run the code 
+When you are done typing the colors in each string Hit Run the code in a Compiler    
+
+Visit this Website to Run or to Compile My code 
 https://www.programiz.com/cpp-programming/online-compiler/
+
+====================================================================================================================
+   
+
+ALWWAYS REMEMBER:  *Wrong Spelling of Color will cause Error Name: "Invalid Colors"
+                   *Small letters only
+                   *To determine where the first color and fourth color, the fourth color is alway far away to first, Second and Third color.
+
+
 ====================================================================================================================
 OWNER
 Anwil Shien B. Oli
