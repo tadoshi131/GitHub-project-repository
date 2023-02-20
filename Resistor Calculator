@@ -18,7 +18,7 @@ using namespace std;
 //
 //  Type the name of a color in the "// Driver Code" then
 //  Wrong Spelling of Color will send Error"Invalid Colors"                 
-
+//  Small letters only.
 //                           "EXAMPLE"
 //   // Driver Code" 
 //   int main()
