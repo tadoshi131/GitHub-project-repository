@@ -1,20 +1,20 @@
 Guide to operate the c++ code
 
-                                                       First color
-                                                     /         Second color
-                                                   /         /        Third color
-                                                 /         /         /         Fourth color
-                                               /         /         /         / 
-                                 ______V____V____V____V______
-                                |          | |      | |      | |      | |          |   
-        ___________=|          | |      | |      | |      | |          |=____________
-                              =|          | |      | |      | |      | |          |=     
-                                |_____| |___| |___| |___| |_____|
+                                     First color
+                                    /        Second color
+                                   /        /        Third color
+                                  /        /        /        Fourth color
+                                 /        /        /        / 
+                     ___________V________V________V________V______
+                    |          | |      | |      | |      | |     |   
+        ____________|          | |      | |      | |      | |     |____________
+                    |          | |      | |      | |      | |     |    
+                    |__________| |______| |______| |______| |_____|
                  
-                                        "THIS IS YOUR RESISTOR"
+                                 "THIS IS YOUR RESISTOR"
 
 INSTRUCTION: Type the name of a color in the "// Driver Code" 
-                 
+             Wrong Spelling of Color will send Error "Invalid Colors"                  
 EXAMPLE:
 
 //Driver Code" 
@@ -25,3 +25,12 @@ int main()
        string Third_Color = "red";
       string Fourth_Color = "gold";
 
+When you are done typing the colors in each string Hit Run the code in Compiler
+====================================================================================================================
+Visit this Website to Run the code 
+https://www.programiz.com/cpp-programming/online-compiler/
+====================================================================================================================
+OWNER
+Anwil Shien B. Oli
+DCET 2-1
+====================================================================================================================
