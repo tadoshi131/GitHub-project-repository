@@ -43,5 +43,3 @@ https://www.programiz.com/cpp-programming/online-compiler/
 OWNER
 Anwil Shien B. Oli
 DCET 2-1
-
-====================================================================================================================
