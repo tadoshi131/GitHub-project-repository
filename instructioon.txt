@@ -36,7 +36,7 @@ https://www.programiz.com/cpp-programming/online-compiler/
    
    ALWWAYS REMEMBER:  *Wrong Spelling of Color will cause Error Name: "Invalid Colors"
                    *Small letters only
-                   *To determine where the first color and fourth color, the fourth color is alway far away to first, Second and Third color.
+                   *To determine where the first color and fourth color, the fourth color is always faraway to first, Second and Third color.
 
 ====================================================================================================================
 
