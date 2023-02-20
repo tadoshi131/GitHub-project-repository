@@ -26,6 +26,7 @@ int main()
        string Fourth_Color = "gold";
 
 ====================================================================================================================
+
 When you are done typing the colors in each string Hit Run the code in a Compiler    
 
 Visit this Website to Run or to Compile My code 
@@ -33,14 +34,14 @@ https://www.programiz.com/cpp-programming/online-compiler/
 
 ====================================================================================================================
    
-
-ALWWAYS REMEMBER:  *Wrong Spelling of Color will cause Error Name: "Invalid Colors"
+   ALWWAYS REMEMBER:  *Wrong Spelling of Color will cause Error Name: "Invalid Colors"
                    *Small letters only
                    *To determine where the first color and fourth color, the fourth color is alway far away to first, Second and Third color.
 
-
 ====================================================================================================================
+
 OWNER
 Anwil Shien B. Oli
 DCET 2-1
+
 ====================================================================================================================
