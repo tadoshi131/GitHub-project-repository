@@ -1,1 +1,100 @@
+//Console Based Application Using C++
+//C++ RESISTOR CALCULATOR 
+//By: Anwil Shien B. Oli
+//DCET 2-1
+#include <bits/stdc++.h>
+using namespace std;
+//                   First color
+//                  /   Second color
+//                 /   /   Third color
+//                /   /   /   Fourth color
+//               /   /   /   /
+//         _____V___V___V___V____
+//         |   ||  ||  ||  ||   |   
+//_________|   ||  ||  ||  ||   |_________
+//         |   ||  ||  ||  ||   |     
+//         |___||__||__||__||___|
+//         "THIS IS YOUR RESISTOR"
+//
+//  Type the name of a color in the "// Driver Code" then
+//  Wrong Spelling of Color will send Error"Invalid Colors"                 
 
+//                           "EXAMPLE"
+//   // Driver Code" 
+//   int main()
+//   {
+//       string First_Color = "red";
+//       string Second_Color = "brown";
+//       string Third_Color = "red";
+//       string Fourth_Color = "gold";
+
+void findResistance(string First_Color, string Second_Color, string Third_Color, string Fourth_Color)
+{
+    
+// Hash-map to store the values of the color-digits
+
+// Fisrt color and Second color
+    map<string, string> color_digit;
+    color_digit["black"] = "";
+    color_digit["brown"] = "1";
+    color_digit["red"] = "2";
+    color_digit["orange"] = "3";
+    color_digit["yellow"] = "4";
+    color_digit["green"] = "5";
+    color_digit["blue"] = "6";
+    color_digit["violet"] = "7";
+    color_digit["grey"] = "8";
+    color_digit["white"] = "9";
+
+// Third color 
+    map<string, string> multiplier;
+    multiplier["black"] = "";
+    multiplier["brown"] = "0";
+    multiplier["red"] = "00";
+    multiplier["orange"] = "k";
+    multiplier["yellow"] = "0k";
+    multiplier["green"] = "00k";
+    multiplier["blue"] = "M";
+    multiplier["violet"] = "0M";
+    multiplier["grey"] = "00M";
+    multiplier["white"] = "G";
+
+//Fourth color     
+    map<string, string> tolerance;
+    tolerance["brown"] =  "+/- 1 %";
+    tolerance["red"] = "+/- 2 %";
+    tolerance["green"] = "+/- 0.5 %";
+    tolerance["blue"] = "+/- 0.25 %";
+    tolerance["violet"] = "+/- 0.1 %";
+    tolerance["gold"] = "+/- 5 %";
+    tolerance["silver"] = "+/- 10 %";
+    tolerance["none"] = "+/-20 %";
+     
+    if (color_digit.count(First_Color)
+       && color_digit.count(Second_Color)
+       && multiplier.count(Third_Color)
+       && tolerance.count(Fourth_Color))
+       {
+           string xx = color_digit[First_Color];
+           string yy = color_digit[Second_Color];
+           string zz = multiplier[Third_Color];
+           string aa = tolerance[Fourth_Color];
+           cout << "Resistance = " << xx << yy <<
+                 zz << " Ω " << aa << endl;
+       }
+    else
+        cout << "Invalid Colors" << endl;
+}
+// Driver Code
+int main()
+{
+    string First_Color = "red";
+    string Second_Color = "brown";
+    string Third_Color = "red";
+    string Fourth_Color = "gold";
+
+// Change the color if you want to calculate other resistor value
+// Function Call
+    findResistance(First_Color, Second_Color, Third_Color, Fourth_Color);
+}
+// Thank You
