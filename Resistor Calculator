@@ -30,7 +30,7 @@ using namespace std;
 //
 //ALWWAYS REMEMBER:  *Wrong Spelling of the Color will cause Error Name: "Invalid Colors"
 //                   *Small letters only
-//                   *To determine where the first color and fourth color, the fourth color is always far away to first, Second and Third color.
+//                   *To determine where the first color and fourth color, the fourth color is always faraway to first, Second and Third color.
 
 void findResistance(string First_Color, string Second_Color, string Third_Color, string Fourth_Color)
 {
