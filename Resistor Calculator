@@ -7,26 +7,30 @@ using namespace std;
 //                   First color
 //                  /   Second color
 //                 /   /   Third color
-//                /   /   /   Fourth color
-//               /   /   /   /
-//         _____V___V___V___V____
-//         |   ||  ||  ||  ||   |   
-//_________|   ||  ||  ||  ||   |_________
-//         |   ||  ||  ||  ||   |     
-//         |___||__||__||__||___|
+//                /   /   /      Fourth color
+//               /   /   /      /
+//         _____V___V___V______V____
+//         |   ||  ||  ||     ||   |   
+//_________|   ||  ||  ||     ||   |_________
+//         |   ||  ||  ||     ||   |     
+//         |___||__||__||_____||___|
 //         "THIS IS YOUR RESISTOR"
 //
-//  Type the name of a color in the "// Driver Code" then
-//  Wrong Spelling of Color will send Error"Invalid Colors"                 
-//  Small letters only.
-//                           "EXAMPLE"
-//   // Driver Code" 
-//   int main()
-//   {
-//       string First_Color = "red";
-//       string Second_Color = "brown";
-//       string Third_Color = "red";
-//       string Fourth_Color = "gold";
+//INSTRUCTION: Type the name of a color in the "// Driver Code" 
+//           
+//              EXAMPLE:
+//
+//      //Driver Code" 
+//            int main()
+//            {
+//                   string First_Color = "red";
+//                   string Second_Color = "brown";
+//                   string Third_Color = "red";
+//                   string Fourth_Color = "gold";
+//
+//ALWWAYS REMEMBER:  *Wrong Spelling of the Color will cause Error Name: "Invalid Colors"
+//                   *Small letters only
+//                   *To determine where the first color and fourth color, the fourth color is alway far away to first, Second and Third color.
 
 void findResistance(string First_Color, string Second_Color, string Third_Color, string Fourth_Color)
 {
