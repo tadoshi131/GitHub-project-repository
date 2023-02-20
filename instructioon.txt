@@ -1,0 +1,27 @@
+Guide to operate the c++ code
+
+                                                       First color
+                                                     /         Second color
+                                                   /         /        Third color
+                                                 /         /         /         Fourth color
+                                               /         /         /         / 
+                                 ______V____V____V____V______
+                                |          | |      | |      | |      | |          |   
+        ___________=|          | |      | |      | |      | |          |=____________
+                              =|          | |      | |      | |      | |          |=     
+                                |_____| |___| |___| |___| |_____|
+                 
+                                        "THIS IS YOUR RESISTOR"
+
+INSTRUCTION: Type the name of a color in the "// Driver Code" 
+                 
+EXAMPLE:
+
+//Driver Code" 
+int main()
+{
+       string First_Color = "red";
+       string Second_Color = "brown";
+       string Third_Color = "red";
+      string Fourth_Color = "gold";
+
