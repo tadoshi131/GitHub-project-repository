@@ -35,7 +35,7 @@ void findResistance(string First_Color, string Second_Color, string Third_Color,
 
 // Fisrt color and Second color
     map<string, string> color_digit;
-    color_digit["black"] = "";
+    color_digit["black"] = "0";
     color_digit["brown"] = "1";
     color_digit["red"] = "2";
     color_digit["orange"] = "3";
@@ -88,8 +88,8 @@ void findResistance(string First_Color, string Second_Color, string Third_Color,
 // Driver Code
 int main()
 {
-    string First_Color = "red";
-    string Second_Color = "brown";
+    string First_Color = "brown";
+    string Second_Color = "black";
     string Third_Color = "red";
     string Fourth_Color = "gold";
 
